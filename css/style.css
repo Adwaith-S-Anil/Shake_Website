@@ -1,0 +1,209 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #160647;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #160647;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1100px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+#home {
+	height: 70px;
+	background: #fff;
+}
+#home section.wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+}
+#home section.wrapper header{
+	height: 70px;
+	background: #fff;
+}
+#home section.wrapper header div.left{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+#home section.wrapper header div.left h1{
+	width: 200px;
+	margin-right: 30px
+}
+#home section.wrapper header div.left h1 a{
+	display: block;
+}
+#home section.wrapper header div.left h1 a img{
+	display: block;
+	padding: 12px;
+}
+#home section.wrapper header div.left nav{
+	
+}
+#home section.wrapper header div.left nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+#home section.wrapper header div.left nav ul li{
+	margin-right: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#home section.wrapper header div.left nav ul li:last-child{
+	margin-right: 210px;
+}
+#home section.wrapper header div.left nav ul li a{
+	
+}
+#home section.wrapper header div.right {
+	
+}
+#home section.wrapper header div.right nav {
+	
+}
+#home section.wrapper header div.right nav ul{
+	
+}
+#home section.wrapper header div.right nav ul li {
+	
+}
+#home section.wrapper header div.right nav ul li a{
+	text-transform: capitalize;
+	color: #160647;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 5px 10px;
+	display: inline-block;
+}
+#home section.wrapper header div.right nav ul li a.button{
+	padding: ;
+	background: #160647;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#home section.wrapper header div.left nav ul li a:hover{
+	border-bottom: 1px solid #160647;
+}
+#spotlight	{
+	background: url(../images/strip.png ) no-repeat;
+	background-position-y: 80px;
+	background-position-x: 1500px;
+}
+#spotlight	section.wrapper{
+	
+}
+#spotlight	div.content{
+	text-align: center;
+	margin: 0 auto;
+	font-family: Circular-Std-Bold;
+	font-size: 78px;
+	margin-top: 90px;
+}
+#spotlight	div.content h1{
+	
+}
+#spotlight	div.content p{
+	font-family: Circular-Std-Regular;
+}
+#spotlight	div.image img{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 80px;
+	width: 490px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1),0 0 6px 0 rgba( 0,0,0,0.1);
+}
+#spotlight	div.image img.1{
+	text-align: center;
+	margin: 0 auto;
+
+}
+#spotlight	div.image img.2{
+	margin-left: 24px;
+}
+#spotlight	div.content_box{
+	
+}
+#spotlight	div.content_box ul{
+	display: flex;
+	justify-content: space-between;
+}
+#spotlight	div.content_box ul li h4 {
+	font-family: Circular-Std-Bold;
+	margin-top: 30px;
+	font-size: 35px;
+}
+#spotlight	div.content_box ul li p{
+	
+}
